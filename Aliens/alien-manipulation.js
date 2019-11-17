@@ -32,4 +32,6 @@ function buttonClick() {
 	// DISPLAY THE NEW DATASET
 	displayData(filteredData);
 };
-d3.selectAll("#filter-btn").on("click", buttonClick);
+inputValue.on("change", buttonClick);
+
+
